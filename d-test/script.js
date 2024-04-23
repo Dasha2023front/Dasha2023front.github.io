@@ -48,16 +48,16 @@ validate
       errorMessage: "Минимум 2 символа",
     },
   ])
-  .addField("#email", [
-    {
-      rule: "required",
-      errorMessage: "Введите email",
-    },
-    {
-      rule: "email",
-      errorMessage: "Ошибка email",
-    },
-  ])
+  // .addField("#email", [
+  //   {
+  //     rule: "required",
+  //     errorMessage: "Введите email",
+  //   },
+  //   {
+  //     rule: "email",
+  //     errorMessage: "Ошибка email",
+  //   },
+  // ])
   .addField("#phone", [
     {
       validator: (value) => {
